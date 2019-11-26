@@ -44,7 +44,7 @@ header{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-image: url("../images/bgtile.png");
+  /* background-image: url("../images/bgtile.png"); */
   background-image: linear-gradient(#5c9cd8, #365979);
   padding: 7px 10px;
   border: 1px solid rgba(3,78,143,1);
@@ -86,10 +86,6 @@ ul{
   justify-content: center;
 }
 
-ul li{  
-  color: gray;
-}
-
 footer{
   font-weight: 900;
   font-size: 12px;
@@ -97,6 +93,9 @@ footer{
   text-transform: uppercase;
   position: relative;
   bottom: 0;
+  display: flex;
+  justify-content: center;
+  color: gray;
 }
 
 a{
