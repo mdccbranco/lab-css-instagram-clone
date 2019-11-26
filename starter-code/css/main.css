@@ -3,8 +3,104 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+*{
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  height: 100vh;
+}
+
+img{
+  vertical-align: middle;
+}
+
+header{
+  background-image: url("../images/bgtile.png");
+  height: 40vh;
+}
+
+.content{
+  width: 65vw;
+  margin: -15% auto 0;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.info-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5%;
+  width: 496px;
+}
+
+.btn-like{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url("../images/bgtile.png");
+  background-image: linear-gradient(#5c9cd8, #365979);
+  padding: 7px 10px;
+  border: 1px solid rgba(3,78,143,1);
+  box-shadow: 0px 0px 30px 1px rgba(3,78,143,1);
+}
+
+.btn-like a{
+  font-size: 14px;
+  text-align: center;
+  color: #ebf0f4;
+  font-weight: 900;
+  padding-left: 10px;
+}
+
+.info-content{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  width: 450px;
+  padding: 5% 5% 0;
+}
+
+.btn{
+  margin-top: 5%;
+}
+
+h1{
+  color: #06365f;
+  font-size: 25px;
+  width: 60%;
+}
+
+.info-content p{
+  margin: 3% 0;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+ul li{  
+  color: gray;
+}
+
+footer{
+  font-weight: 900;
+  font-size: 12px;
+  padding: 25px 10px 0;
+  text-transform: uppercase;
+  position: relative;
+  bottom: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #1c5380;
+  padding: 0 7px;
 }
